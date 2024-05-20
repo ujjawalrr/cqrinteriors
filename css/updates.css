@@ -5,3 +5,49 @@
 .calm-blue-color {
     color: #4A90E2 ;
 }
+
+
+/* for navbar toggling when screen size is less than 995px */
+.mobile-view {
+    display: none;
+}
+
+.desktop-view {
+    display: block;
+}
+
+@media screen and (max-width: 995px) {
+    .mobile-view {
+        display: block;
+    }
+
+    .desktop-view {
+        display: none;
+    }
+    
+}
+
+
+/*  for social icons in navbar */
+
+.navbar-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-10px);
+}
+
+.navbar-social-icons a {
+    margin: 0 10px;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .navbar-social-icons {
+        display: none;
+    }
+    .social-icons-mobile {
+        font-size: 1.3rem;
+    }
+}
+

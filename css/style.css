@@ -5585,7 +5585,7 @@ footer.light .social-icons i {
 .de_tab.tab_steps.tab_6 .de_nav li span {
 	padding: 20px 0 20px 0;
 	font-size: 14px;
-	line-height: 70px;
+	/* line-height: 70px; */
 	width: 120px;
 	height: 120px;
 }
